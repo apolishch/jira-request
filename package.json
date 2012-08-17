@@ -1,0 +1,25 @@
+{
+  "name": "jira-adapter",
+  "description": "A node proxy to JIRA",
+  "version": "0.0.1",
+  "author": "Abraham Polishchuk <apolishc@gmail.com>",
+  "main": "lib/index.js",
+  "contributors": [
+    { "name": "Seth Carney", "email": "scarney81@gmail.com" },
+    { "name": "Suvajit Gupta", "email": "Suvajit.Gupta@eloqua.com" }
+  ],
+  "dependencies": {
+    "mocha": ">= 0.13.x",
+    "request": ">= 2.9.x",
+    "should": ">= 0.5.x",
+    "mockery": "*"
+  },
+  "scripts": {
+    "test": "./bin/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/apolishch/NodeJira.git"
+  },
+  "license": "BSD"
+}

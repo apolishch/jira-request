@@ -1,0 +1,6 @@
+#!/bin/bash
+export JIRA_HOSTNAME=https://jira.eloquacorp.com
+export JIRA_USERNAME=USERNAME
+export JIRA_PASSWORD=PASSWORD
+
+./node_modules/mocha/bin/mocha
