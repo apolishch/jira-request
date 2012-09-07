@@ -12,7 +12,8 @@
     "mocha": ">= 0.13.x",
     "request": ">= 2.9.x",
     "should": ">= 0.5.x",
-    "mockery": "*"
+    "mockery": "*",
+	"b64": ">= 1.0.1"
   },
   "scripts": {
     "test": "./bin/test.sh"

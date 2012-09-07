@@ -4,7 +4,6 @@ var should = require('should'),
 describe('Api test', function() {
   it('should get record', function(done){
     jira.get_issue('OEP-1234', function(err, response) {
-      console.log(err);
       should.not.exist(err);
       should.exist(response);
       response.key.should.match(/OEP-1234/i);
