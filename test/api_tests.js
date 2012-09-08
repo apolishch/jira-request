@@ -15,12 +15,14 @@ describe('Api test', function() {
           "issuetype": {
             "id": "1" // bug
           },
-          "customfield_10211": "E9", // product
+          "customfield_10211": {
+           "value" : "E9" 
+          }, // product
           "components": [{
             "id": "11082" // "testing"
           }],
           "versions": [{
-            "id": "10000" // affected versions
+            "id": "11519" // affected versions
           }]
         }
       };
@@ -38,6 +40,7 @@ describe('Api test', function() {
   
   it('should get issue', function(done){
     jira.get_issue(id, function(err, response) {
+      console.log(id);
       should.not.exist(err);
       should.exist(response);
       response.key.should.match(id);
