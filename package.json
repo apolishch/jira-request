@@ -6,7 +6,7 @@
   "main": "lib/index.js",
   "contributors": [
     { "name": "Seth Carney", "email": "scarney81@gmail.com" },
-    { "name": "Suvajit Gupta", "email": "Suvajit.Gupta@eloqua.com" }
+    { "name": "Suvajit Gupta", "email": "suvajit_gupta@yahoo.com" }
   ],
   "dependencies": {
     "mocha": ">= 0.13.x",
